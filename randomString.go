@@ -28,7 +28,7 @@ var char2 = []string{
 
 // " ' \ / `
 var all = [][]string{
-	char2, char1, big, small, number}
+	number, small, big, char1, char2}
 
 func getRandomPassword() (randomPassword string) {
 	rand.Seed(time.Now().UnixNano())
