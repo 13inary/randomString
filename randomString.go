@@ -50,7 +50,7 @@ func setSrc() {
 
 func main() {
 	flag.IntVar(&leng, "l", 18, "length of password")
-	flag.StringVar(&scope, "s", "11111", "char2 char1 big small number")
+	flag.StringVar(&scope, "s", "11111", "number small big char1 char2")
 	flag.Parse()
 	setSrc()
 	fmt.Println(getRandomPassword())
